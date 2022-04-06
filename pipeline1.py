@@ -5,6 +5,7 @@ from hera.workflow_service import WorkflowService
 from hera.artifact import InputArtifact, OutputArtifact
 
 # Pipeline step to generate faker data.
+TOKEN=<YOUR TOKEN>
 
 def generate_faker_data():
     from faker import Faker
